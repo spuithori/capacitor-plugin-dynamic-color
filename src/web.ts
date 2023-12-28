@@ -7,4 +7,8 @@ export class DynamicColorWeb extends WebPlugin implements DynamicColorPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  getDynamicColors(): Promise<{ value: string }> {
+    return Promise.resolve({value: ""});
+  }
 }
