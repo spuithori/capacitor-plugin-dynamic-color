@@ -22,7 +22,7 @@ import org.json.JSONObject;
 @CapacitorPlugin(name = "DynamicColor")
 public class DynamicColorPlugin extends Plugin {
 
-    private Example implementation = new DynamicColor();
+    private DynamicColor implementation = new DynamicColor();
 
     @PluginMethod
     public void echo(PluginCall call) {
