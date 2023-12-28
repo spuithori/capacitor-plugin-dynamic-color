@@ -19,10 +19,10 @@ import android.util.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-@CapacitorPlugin(name = "Example")
-public class ExamplePlugin extends Plugin {
+@CapacitorPlugin(name = "DynamicColor")
+public class DynamicColorPlugin extends Plugin {
 
-    private Example implementation = new Example();
+    private Example implementation = new DynamicColor();
 
     @PluginMethod
     public void echo(PluginCall call) {
